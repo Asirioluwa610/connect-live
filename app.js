@@ -1,5 +1,5 @@
 /* Replace these two values with your Supabase project's public URL and anon key. */
-const SUPABASE_URL = https://https://npvbkmkstwaheedvcxyb.supabase.co/rest/v1/;
+const SUPABASE_URL = https://npvbkmkstwaheedvcxyb.supabase.co/rest/v1/;
 const SUPABASE_ANON_KEY = sb_publishable_lsu8BBewMMNZ0Y-jagcFtA_c548G7Up;
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
