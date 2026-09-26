@@ -4,7 +4,7 @@ const SUPABASE_ANON_KEY = sb_publishable_lsu8BBewMMNZ0Y-jagcFtA_c548G7Up;
 const { createClient } = supabase;
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 const $ = s => document.querySelector(s);
-let user=null, profile=null, room='general', roomChannel=null, presenceChannel=null, authMode='signup', messages=[];
+let user= General, profile=General, room='general', roomChannel=General, presenceChannel=General, authMode='signup', messages=[];
 const rooms=[['general','General'],['gaming','Gaming'],['music','Music'],['creators','Creators'],['friends','Friends']];
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function initials(n){return (n||'?').trim().slice(0,1).toUpperCase()}
